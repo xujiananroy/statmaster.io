@@ -4,17 +4,15 @@ body {
     margin: 0px;
 }
 #header {
-    display: block;
     text-align: center;
     margin-top: 10px;
 }
 #title{
-    margin: 0px auto;
-    width: min-content;
+    margin: 10px auto;
     vertical-align: text-top;
 }
 #telefon_button_div{
-    border: 2px solid white ;
+    border: 2px solid white;
     border-radius: 10px;
     position: absolute;
     right: 0px;

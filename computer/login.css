@@ -8,8 +8,10 @@ body {
     margin-top: 10px;
 }
 #title{
-    margin: 10px auto;
+    margin: auto 10px;
     vertical-align: text-top;
+    position: absolute;
+    left: 0px;
 }
 #telefon_button_div{
     border: 2px solid white;

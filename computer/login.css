@@ -3,27 +3,39 @@ body {
     color: white;
     margin: 0px;
 }
-#header {
+header {
     text-align: center;
-    margin-top: 10px;
 }
-#title{
-    margin: auto 10px;
-    vertical-align: text-top;
-    position: absolute;
-    left: 0px;
-}
-#telefon_button_div{
+#telefon_button_div {
     border: 2px solid white;
     border-radius: 10px;
     position: absolute;
     right: 0px;
-    margin: 0px 10px 0px auto;
+    margin: 10px 10px 0px auto;
     padding: 4px 8px;
     width: fit-content;
 }
-#telefon_button{
+#telefon_button {
     text-decoration: none;
     font-size: 20px;
     color: white;
+}
+#logo {
+    margin: auto 10px;
+    vertical-align: text-top;
+    position: absolute;
+    left: 0px;
+    width: 70px;
+}
+#logo_text {
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: text-top;
+    position: absolute;
+    left: 70px;
+}
+#title {
+    padding-top: 10px;
 }

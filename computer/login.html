@@ -27,8 +27,10 @@
                 <label for="username" id="username_label" class="login">Felhasználónév:</label><br>
                 <input type="text" id="username_input" class="login" name="username">
             </form>
-            <input type="button" id="login_button" class="login" onclick="alert('Hello World!')" value="Bejelentkezés">
-            <button id="registration_button" class="login" onclick="registration_div()">Regisztráció</button>
+            <div id="buttons_div" class="login">
+                <input type="button" id="login_button" class="login" onclick="alert('Hello World!')" value="Bejelentkezés">
+                <button id="registration_button" class="login" onclick="registration_div()">Regisztráció</button>
+            </div>
         </div>
     </div>
     <div class="registration" id="main_div">
@@ -41,8 +43,10 @@
                 <label for="username" id="username_label" class="registration">Felhasználónév:</label><br>
                 <input type="text" id="username_input" class="registration" name="username">
             </form>
-            <input type="button" id="login_button" class="registration" onclick="alert('Hello World!')" value="Regisztráció">
-            <button id="registration_button" class="registration" onclick="login_div()">Bejelentkezés</button>
+            <div id="buttons_div" class="registration">
+                <input type="button" id="login_button" class="registration" onclick="alert('Hello World!')" value="Regisztráció">
+                <button id="registration_button" class="registration" onclick="login_div()">Bejelentkezés</button>
+            </div>
         </div>
     </div>
 </body>

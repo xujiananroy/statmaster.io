@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+#title{
+    margin: 20px auto;
+    font-size: 40px;
+    vertical-align: middle;
+}
+#computer_button_div{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0px 10px 0px auto;
+    padding: 2% 3%;
+    width: min-content;
+    display: inline-block;
+}
+#computer_button{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+#telefon_button_div{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0px 10px 0px auto;
+    padding: 2% 3%;
+    width: min-content;
+    display: inline-block;
+}
+#telefon_button{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}

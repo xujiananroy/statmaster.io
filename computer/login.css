@@ -1,41 +1,134 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-    margin: 0px;
+    margin: 0px 10px;
 }
-header {
-    text-align: center;
-}
-#telefon_button_div {
-    border: 2px solid white;
-    border-radius: 10px;
-    position: absolute;
-    right: 0px;
-    margin: 10px 10px 0px auto;
-    padding: 4px 8px;
-    width: fit-content;
-}
-#telefon_button {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-#logo {
-    margin: auto 10px;
-    vertical-align: text-top;
-    position: absolute;
-    left: 0px;
-    width: 70px;
-}
-#logo_text {
-    padding: 5px 10px;
-    margin: 0px;
-    text-align: left;
-    font-size: 16px;
-    vertical-align: text-top;
-    position: absolute;
-    left: 70px;
-}
-#title {
-    padding-top: 10px;
-}
+    .registration {
+        visibility: hidden;
+        position: absolute;
+    }
+    header {
+        text-align: center;
+    }
+    input {
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: 2px white solid;
+        height: 30px;
+        border-radius: 10px;
+    }
+        #telefon_button_div {
+            border: 2px solid white;
+            border-radius: 10px;
+            position: absolute;
+            right: 0px;
+            margin: 10px 10px 0px auto;
+            padding: 4px 8px;
+            width: fit-content;
+        }
+            #telefon_button {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            }
+        #logo {
+            margin: auto 10px;
+            vertical-align: text-top;
+            position: absolute;
+            left: 0px;
+            width: 70px;
+        }
+        #logo_text {
+            padding: 5px 10px;
+            margin: 0px;
+            text-align: left;
+            font-size: 16px;
+            vertical-align: text-top;
+            position: absolute;
+            left: 70px;
+        }
+        .title {
+            padding-top: 10px;
+        }
+    #main_div {
+        margin: 30px 0px;
+    }
+        #login_div{
+            background-color: black;
+        }
+            #username_form.login {
+                width: 48%;
+            }
+                #username_label.login {
+                    font-size: 20px;
+                }
+                #username_input.login {
+                    width: 100%;
+                    margin: 5px 0px 10px 0px;
+                }
+            #password_form_login {
+                position: absolute;
+                right: 0px;
+                width: 48%;
+                margin-right: 15px;
+            }
+                #password_label.login {
+                    font-size: 20px;
+                }
+                #password_input.login {
+                    width: 100%;
+                    margin: 5px 0px 10px 0px;
+                }
+            #login_button.login {
+                padding: 5px 7px;
+                height: auto;
+            }
+            #registration_button.login {
+                padding: 5px 7px;
+                height: auto;
+                font-size: 20px;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                border: 2px white solid;
+                border-radius: 10px;
+            }
+        #registration_div{
+            background-color: black;
+        }
+            #username_form.registration {
+                width: 48%;
+            }
+                #username_label.registration {
+                    font-size: 20px;
+                }
+                #username_input.registration {
+                    width: 100%;
+                    margin: 5px 0px 10px 0px;
+                }
+            #password_form_registration {
+                position: absolute;
+                right: 0px;
+                width: 48%;
+                margin-right: 15px;
+            }
+                #password_label.registration {
+                    font-size: 20px;
+                }
+                #password_input.registration {
+                    width: 100%;
+                    margin: 5px 0px 10px 0px;
+                }
+            #registration_button.registration {
+                padding: 5px 7px;
+                height: auto;
+                font-size: 20px;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                border: 2px white solid;
+                border-radius: 10px;
+            }
+            #login_button.registration {
+                padding: 5px 7px;
+                height: auto;
+            }

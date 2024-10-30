@@ -12,11 +12,38 @@
         <div id="telefon_button_div">
             <a id="telefon_button" href="/statmaster.io/telefon/login.html">telefonon vagyok</a>
         </div>
-        <img src="/statmaster.io/images/logo.png" alt="logo" id="logo">
+        <img src="/Users/43417/desktop/roy/github/statmaster.io/images/logo.png" alt="logo" id="logo">
         <p id="logo_text">stat<br>master<br>.io</p>
-        <h1 id="title">Bejelentkezés</h1>
+        <h1 class="title login">Bejelentkezés</h1>
+        <h1 class="title registration">Regisztráció</h1>
     </header>
-    <div>
+    <div class="login" id="main_div">
+        <div id="login_div" class="login">
+            <form id="password_form_login">
+                <label for="password" id="password_label" class="login">Jelszó:</label><br>
+                <input type="password" id="password_input" class="login" name="password">
+            </form>
+            <form id="username_form" class="login">
+                <label for="username" id="username_label" class="login">Felhasználónév:</label><br>
+                <input type="text" id="username_input" class="login" name="username">
+            </form>
+            <input type="button" id="login_button" class="login" onclick="alert('Hello World!')" value="Bejelentkezés">
+            <button id="registration_button" class="login" onclick="registration_div()">Regisztráció</button>
+        </div>
+    </div>
+    <div class="registration" id="main_div">
+        <div id="registration_div" class="registration">
+            <form id="password_form_registration">
+                <label for="password" id="password_label" class="registration">Jelszó:</label><br>
+                <input type="password" id="password_input" class="registration" name="password">
+            </form>
+            <form id="username_form" class="registration">
+                <label for="username" id="username_label" class="registration">Felhasználónév:</label><br>
+                <input type="text" id="username_input" class="registration" name="username">
+            </form>
+            <input type="button" id="login_button" class="registration" onclick="alert('Hello World!')" value="Regisztráció">
+            <button id="registration_button" class="registration" onclick="login_div()">Bejelentkezés</button>
+        </div>
     </div>
 </body>
 </html>

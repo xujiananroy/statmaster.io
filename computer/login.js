@@ -1,3 +1,4 @@
+// change to registration
 function registration_div() {
     var registration_elements = document.getElementsByClassName("registration");
     var login_elements = document.getElementsByClassName("login");
@@ -11,6 +12,7 @@ function registration_div() {
     };
     document.getElementById("password_form_registration").style.position = "absolute";
 };
+// change to login
 function login_div() {
     var registration_elements = document.getElementsByClassName("registration");
     var login_elements = document.getElementsByClassName("login");

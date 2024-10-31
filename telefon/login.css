@@ -1,27 +1,136 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-    margin: 0px;
+    margin: 0px 10px;
 }
-#header {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-}
-#title{
-    margin: 10px auto;
-    width: min-content;
-    vertical-align: text-top;
-}
-#computer_button_div{
-    border: 2px solid white ;
-    border-radius: 10px;
-    margin: 0px 10px 0px auto;
-    padding: 4px 8px;
-    width: min-content;
-}
-#computer_button{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
+    .registration {
+        visibility: hidden;
+        position: absolute;
+    }
+    input {
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: 2px white solid;
+        height: 30px;
+        border-radius: 10px;
+    }
+    header {
+        text-align: center;
+    }
+        #logo {
+            margin: auto 10px;
+            vertical-align: text-top;
+            position: absolute;
+            left: 0px;
+            width: 70px;
+        }
+        #logo_text {
+            padding: 5px 10px;
+            margin: 0px;
+            text-align: left;
+            font-size: 16px;
+            vertical-align: text-top;
+            position: relative;
+            left: 70px;
+        }
+        .title {
+            padding-top: 10px;
+        }
+    #main_div {
+        margin: 30px 0px;
+    }
+        #login_div{
+            background-color: black;
+        }
+            #username_form.login {
+                width: 100%;
+                margin: 0px;
+            }
+                #username_label.login {
+                    font-size: 20px;
+                }
+                #username_input.login {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            #password_form_login {
+                width: 100%;
+                margin: 0px;
+            }
+                #password_label.login {
+                    font-size: 20px;
+                }
+                #password_input.login {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            #buttons_div.login {
+                width: min-content;
+                margin: 0px auto;
+                display: block;
+            }
+                #login_button.login {
+                    display: block;
+                    margin: 5px auto;
+                    padding: 4px 7px;
+                    height: auto;
+                }
+                #registration_button.login {
+                    display: block;
+                    margin: 0px auto;
+                    padding: 4px 7px;
+                    height: auto;
+                    font-size: 20px;
+                    background-color: rgb(0, 0, 0);
+                    color: white;
+                    border: 2px white solid;
+                    border-radius: 10px;
+                }
+        #registration_div{
+            background-color: black;
+        }
+            #username_form.registration {
+                width: 100%;
+                margin: 0px;
+            }
+                #username_label.registration {
+                    font-size: 20px;
+                }
+                #username_input.registration {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            #password_form_registration {
+                width: 100%;
+                margin: 0px;
+            }
+                #password_label.registration {
+                    font-size: 20px;
+                }
+                #password_input.registration {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            #buttons_div.registration {
+                width: min-content;
+                margin: 0px auto;
+                display: block;
+            }
+                #login_button.registration {
+                    display: block;
+                    margin: 5px auto;
+                    padding: 4px 7px;
+                    height: auto;
+                }
+                #registration_button.registration {
+                    display: block;
+                    margin: 0px auto;
+                    padding: 4px 7px;
+                    height: auto;
+                    font-size: 20px;
+                    background-color: rgb(0, 0, 0);
+                    color: white;
+                    border: 2px white solid;
+                    border-radius: 10px;
+                }
